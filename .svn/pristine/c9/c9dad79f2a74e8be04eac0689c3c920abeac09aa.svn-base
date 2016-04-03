@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+	<title>aDBstract - OOP Database made real</title>
+ 	<meta name="description" content="aDBstract will provide Object Oriented Programming to your database. ">
+	<meta name="author" content="SelfDevel">
+	<meta name="copyright" content="SelfDevel">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2016-03-19T00:00:00+01:00">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/documenter_style.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+	
+	<style>
+		html, body{background-color:#EDF6EE;color:#412E28;}
+		h1,h2,h3,h4,h5,h6{color:#412E28;}
+		section table{background-color:#EDF6EE;}
+		::-moz-selection{background:#2B2302;color:#B3204D;}
+		::selection{background:#2B2302;color:#B3204D;}
+		a.brand{background-image:url();}
+		a, a:hover, a:active{color:#B3204D;}
+		hr{border-top:1px solid #DBE3DC;border-bottom:1px solid #F6FFF7;}
+		div.navbar-inner, .navbar .nav li ul{background:#261F02;color:#EDF6EE;}
+		a.btn-navbar{background:#261F02;color:#EDF6EE;}
+		.navbar .nav li a{color:#EDF6EE;text-shadow:1px 1px 0px #382E03;}
+		.navbar .nav li a:hover, .navbar .nav li.active a{text-shadow:none;}
+		div.navbar-inner ul{}
+		.marketing-byline{color:#F6FFF7;}
+		.navbar .nav > li a{color:#EDF6EE;}
+		.navbar .nav > li a:hover, a.btn-navbar:hover{background:#2B2302;color:#B3204D;}
+		.navbar .nav .active > a, .navbar .nav .active > a:hover, a.btn-navbar:active{background-color:#2B2302;color:#B3204D;}
+		.navbar .nav li ul li a:hover{background:#2B2302;color:#B3204D;}
+		.navbar .nav li ul li a:active{background:#2B2302;color:#B3204D;}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #B3204D, #7D1636);
+			  background-image: -ms-linear-gradient(top, #B3204D, #7D1636);
+			  background-image: -webkit-gradient(linear, 0 0, 0 B3204D%, from(#261F02), to(#7D1636));
+			  background-image: -webkit-linear-gradient(top, #B3204D, #7D1636);
+			  background-image: -o-linear-gradient(top, #B3204D, #7D1636);
+			  background-image: linear-gradient(top, #B3204D, #7D1636);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B3204D', endColorstr='#7D1636', GradientType=0);
+			  border-color: #7D1636 #7D1636 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  background-color: #7D1636;
+		}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+	
+	
+    </head>
+    
+<body class="documenter-project-adbstract" data-spy="scroll" id="top">
+
+<!-- Documentation Navbar -->
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container"> 
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+			<a class="brand" href="#">aDBstract - OOP Database made real</a>
+			<div class="nav-collapse">
+			<ul class="nav">
+					
+			<li><a href="#installation" title="Installation">Installation</a></li>
+			<li><a href="#run_adbstract" title="Run aDBstract">Run aDBstract</a></li>
+			<li><a href="#how_to_use" title="How to use">How to use</a></li>
+			<li><a href="#options" title="Options">Options</a></li>
+
+			</ul>
+			</div>
+		</div>
+	</div>
+</div> <!-- End of Navbar -->
+
+<!-- Main Container Beginning -->			
+			
+<div class="container" id="documenter_content">
+    
+	<div id="documenter-cover">
+	<div class="masthead">
+	    <h1>aDBstract - OOP Database made real</h1>
+	    <p>aDBstract will provide Object Oriented Programming to your database. </p>
+	    <ul class="marketing-byline">
+			<li>created: 03/10/2011</li>
+			<li>latest update: 03/19/2016</li>
+			<li>by: SelfDevel</li>
+			<li><a href="http://yoantonioroldan.esy.es/">yoantonioroldan.esy.es/</a></li>
+		</ul>
+	    <p class="download-info">
+			<a href="#installation" class="btn btn-primary btn-large">Installation</a> <a href="#run_adbstract" class="btn btn-large">Run aDBstract</a> <a href="#how_to_use" class="btn btn-large">How to use</a> 
+		</p>
+		
+	</div> <!-- masthead -->
+	
+   <div id="intro">
+    <p class="highlight hero-unit">Hi, thank you for purchasing this item. This item will save you tons of time, this tool will abstract you from your database, you only have to create a new object and run the execute insert, update, select or delete method from the database controller. This tool is intended to full OOP your database.</p>
+   </div> <!-- intro -->
+   
+	</div>
+      
+  <section id="installation">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+<p>
+	You will only have to need the following:</p>
+<ol>
+	<li>
+		Extract the content from aDBstract folder into your public html folder&nbsp;</li>
+	<li>
+		Open aDBstract/com/selfdeve/adbstract/ConnectionManager.php</li>
+	<li>
+		Configure your own access database parameters, make sure they are valid</li>
+	<li>
+		Power On your locals servers, apache and mysql</li>
+	<li>
+		Enter the following url in your browser:&nbsp;http://localhost/aDBstract/WebContent/index.php</li>
+	<li>
+		You must see the aDBstract index page</li>
+</ol>
+<p>
+	&nbsp;</p>
+<p>
+	<a href="assets/images/image_2.jpg"><img alt="" src="assets/images/image_2.jpg"></a></p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="run_adbstract">
+	<div class="page-header"><h3>Run aDBstract</h3><hr class="notop"></div>
+<p>
+	Follow these steps to create the database Bean Class and Controller Class:</p>
+<ol>
+	<li>
+		Click the Get tables button</li>
+	<li>
+		Select the table &nbsp;that you want to abstract for.</li>
+	<li>
+		Set the class name if you want, by default Bean.php and Controller.php files will be created.</li>
+	<li>
+		Click the Run aDBstract! button</li>
+	<li>
+		Check the GeneratedClases folder, now you can export the files.</li>
+</ol>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" src="assets/images/image_1.jpg"></p>
+</section>
+<section id="how_to_use">
+	<div class="page-header"><h3>How to use</h3><hr class="notop"></div>
+<p>
+	Follow thes steps to use the aDBstract generated clases:</p>
+<ol>
+	<li>
+		Initalize a PDO object: $pdo = new PDO(&quot;my conn params&quot;, &quot;myuser&quot;, &quot;mypassword&quot;);</li>
+	<li>
+		Initialize a new Object of the database Controller class: $controller = new Controller($pdo);</li>
+	<li>
+		Initializa some new Object of the database Bean class: $bean = new Bean();</li>
+	<li>
+		Set data to the Bean Object: $bean-&gt;setField1(&quot;data&quot;); $bean-&gt;setField7(&quot;data7&quot;);</li>
+	<li>
+		Run the Controller method you want: &nbsp;$controller-&gt;executeSelect($bean);</li>
+	<li>
+		Read the returned data from your database</li>
+</ol>
+<ul>
+	<li>
+		executeSelect method: returns an array of Bean Object.</li>
+	<li>
+		executeInsert method: returns the number of inserted rows.</li>
+	<li>
+		executeUpdate method: returns the number of affected rows.</li>
+	<li>
+		executeDelete method: returns the number of deleted rows.</li>
+</ul>
+<p>
+	&nbsp;</p>
+<p>
+	Check the <a href="#options">#options</a>&nbsp; section to extend the functionality features</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="options">
+	<div class="page-header"><h3>Options</h3><hr class="notop"></div>
+<p>
+	You can use the followings options:</p>
+<ul>
+	<li>
+		LIMIT clause</li>
+	<li>
+		OFFSET clause</li>
+	<li>
+		ORDER by clause</li>
+</ul>
+<p>
+	&nbsp;</p>
+<ol>
+	<li>
+		Using ORDER BY clause:</li>
+</ol>
+<ul style="margin-left: 40px;">
+	<li>
+		Set $controller-&gt;setOrderBy($array), $array must be an array like:</li>
+</ul>
+<p style="margin-left: 120px;">
+	$array = [</p>
+<p style="margin-left: 160px;">
+	&quot;myField1Name&quot;: &quot;ASC&quot;,</p>
+<p style="margin-left: 160px;">
+	&quot;myField4Name&quot;: &quot;DESC&quot;</p>
+<p style="margin-left: 120px;">
+	]</p>
+<ul>
+	<li style="margin-left: 40px;">
+		Run your select query</li>
+</ul>
+<p style="margin-left: 40px;">
+	&nbsp;</p>
+<p style="margin-left: 40px;">
+	2.- Using LIMIT and OFFSET:</p>
+<ul>
+	<li style="margin-left: 40px;">
+		Set $controller-&gt;setLimit($int), $int is an integer number representing the LIMIT clause value</li>
+	<li style="margin-left: 40px;">
+		You can optionally set a OFFSET clause if you want: $controller-&gt;setOffset($offst), $offst is an integer representing the OFFSET clause value.</li>
+</ul>
+</section>
+
+
+
+    <hr />
+
+<footer>
+    <p>Copyright SelfDevel 2016 made with the <a href="http://rxa.li/documenter">Documenter v2.0</a></p>
+</footer>
+
+</div><!-- /container --> 
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script>document.createElement('section');var duration='500',easing='swing';</script>
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/jquery.scrollTo.js"></script>
+<script src="assets/js/jquery.easing.js"></script>
+<script src="assets/js/scripts.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap-min.js"></script> 
+</body>
+</html>
